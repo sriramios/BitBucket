@@ -1,0 +1,6 @@
+module Pods_BitBucketTests {
+  umbrella header "Pods-BitBucketTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

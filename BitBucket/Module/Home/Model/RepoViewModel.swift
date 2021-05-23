@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct RepoViewModel {
     let name: String
     let createdOnDate: String

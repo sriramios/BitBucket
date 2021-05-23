@@ -7,3 +7,7 @@ source 'git@github.com:sriramios/specs.git'
 target 'BitBucket' do
   pod 'SRNetworking'
 end
+
+target 'BitBucketTests' do
+  pod 'SRNetworking'
+end

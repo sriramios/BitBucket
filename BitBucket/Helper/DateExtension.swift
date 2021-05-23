@@ -8,7 +8,7 @@
 import Foundation
 
 extension Date {
-    static func getFormattedDate(string: String?) -> String{
+    static func getFormattedDate(string: String?) -> String {
         let formatter = DateFormatter()
         formatter.locale = Locale(identifier: "en_US_POSIX")
         formatter.timeZone = TimeZone(secondsFromGMT: 0)
@@ -16,7 +16,9 @@ extension Date {
         let dateFormatterPrint = DateFormatter()
         dateFormatterPrint.dateFormat = "MMM dd,yyyy"
         guard let dateStr = string else { return "" }
-        let date: Date? = formatter.date(from: dateStr)
-        return dateFormatterPrint.string(from: date!);
+        if let date: Date = formatter.date(from: dateStr) {
+        return dateFormatterPrint.string(from: date);
+        }
+        return ""
     }
 }

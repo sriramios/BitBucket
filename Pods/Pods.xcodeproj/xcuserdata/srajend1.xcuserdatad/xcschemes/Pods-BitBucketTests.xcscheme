@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "616B87814B1C56C36549BBFBF8D81670"
-               BuildableName = "libSRNetworking.a"
-               BlueprintName = "SRNetworking"
+               BlueprintIdentifier = "3B7DD2C939633E3C1CFFCB0F394D1E36"
+               BuildableName = "libPods-BitBucketTests.a"
+               BlueprintName = "Pods-BitBucketTests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
