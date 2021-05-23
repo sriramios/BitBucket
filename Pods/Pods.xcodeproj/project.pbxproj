@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40ADE541C4B99C92430E9A0822430480 /* SRNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9D8B55AD6593E872AAFE614AB3C6A /* SRNetworking-dummy.m */; };
+		4D9316C0E941FABB941C90E71C21F67A /* Pods-BitBucket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 480FFD49D2A89218AE54910C0FF4ED0B /* Pods-BitBucket-dummy.m */; };
+		58A6BEA78B285796D02CFCF0F07CA93C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ACBF5D4312E37DB3C6016ADFDB313F /* Configuration.swift */; };
+		81C36D6DEEC6309B5E9E70E07E1DA82B /* SRNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7EE0B7A2AF5D7318604A1884F6E6A3D /* SRNetworking-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E00485B22B14B07C9035251B8AB2BADC /* Pods-BitBucket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F2146039AABAB5C5EAFD67E7E02AB1 /* Pods-BitBucket-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E1EDBBA95794DE662CBF61732E4BB46A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419ED894D9ED00C33FEE8941650501FD /* Service.swift */; };
+		E962AA4C5A06310175D6B46FE18B8631 /* NetworkAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D3839370C7B69C90C58C7EC66C427D /* NetworkAgent.swift */; };
+		EAE6F485FE9AC0E37BAC855F37DEC5DE /* EndpointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F86FD4843074B834541BE8CDA3D871 /* EndpointProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0274C729D6E779F55333B835376309D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616B87814B1C56C36549BBFBF8D81670;
+			remoteInfo = SRNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DA9D8B55AD6593E872AAFE614AB3C6A /* SRNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRNetworking-dummy.m"; sourceTree = "<group>"; };
+		419ED894D9ED00C33FEE8941650501FD /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = Classes/Manager/Service.swift; sourceTree = "<group>"; };
+		480FFD49D2A89218AE54910C0FF4ED0B /* Pods-BitBucket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BitBucket-dummy.m"; sourceTree = "<group>"; };
+		4AAD64FADDACADF688A01C57588506FC /* Pods-BitBucket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BitBucket.modulemap"; sourceTree = "<group>"; };
+		5669D988F70BC01D646197EE13CF59D7 /* SRNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRNetworking.release.xcconfig; sourceTree = "<group>"; };
+		62ACBF5D4312E37DB3C6016ADFDB313F /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Classes/Configuration/Configuration.swift; sourceTree = "<group>"; };
+		65D3839370C7B69C90C58C7EC66C427D /* NetworkAgent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkAgent.swift; path = Classes/Agent/NetworkAgent.swift; sourceTree = "<group>"; };
+		680E155C31572BEAEDA69D3F204C0446 /* Pods-BitBucket-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BitBucket-acknowledgements.plist"; sourceTree = "<group>"; };
+		69F86FD4843074B834541BE8CDA3D871 /* EndpointProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndpointProtocol.swift; path = Classes/Protocol/EndpointProtocol.swift; sourceTree = "<group>"; };
+		9D12D10E217333EA508440710BCAC22C /* libPods-BitBucket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitBucket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6EB7C28DC1772BC2E9FD0DDF05F7F6D /* libSRNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSRNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DDFFE7A83A305F698DF0781D59861E /* SRNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		C3F808D29AB21B17A285782B2A8CAF90 /* Pods-BitBucket-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BitBucket-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7EE0B7A2AF5D7318604A1884F6E6A3D /* SRNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRNetworking-umbrella.h"; sourceTree = "<group>"; };
+		D4F2146039AABAB5C5EAFD67E7E02AB1 /* Pods-BitBucket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BitBucket-umbrella.h"; sourceTree = "<group>"; };
+		D6C4B30EDA8DB90A49590A6391A07AD9 /* Pods-BitBucket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitBucket.release.xcconfig"; sourceTree = "<group>"; };
+		E297E8264BF25B24CDBCF10DCF8A989E /* Pods-BitBucket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitBucket.debug.xcconfig"; sourceTree = "<group>"; };
+		E6F6C4C2EC93F74BB196FEF5B9C5589B /* SRNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SRNetworking.modulemap; sourceTree = "<group>"; };
+		EA6A6E3D2A86044E43FE756B63FB482D /* SRNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRNetworking-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6324AF7025641EC912B24F1CA84B5171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6791EDB4A0EF7ED12311F39D3C9F5E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1423A47D215ABD8F766B65C4A68955B4 /* Pods-BitBucket */ = {
+			isa = PBXGroup;
+			children = (
+				4AAD64FADDACADF688A01C57588506FC /* Pods-BitBucket.modulemap */,
+				C3F808D29AB21B17A285782B2A8CAF90 /* Pods-BitBucket-acknowledgements.markdown */,
+				680E155C31572BEAEDA69D3F204C0446 /* Pods-BitBucket-acknowledgements.plist */,
+				480FFD49D2A89218AE54910C0FF4ED0B /* Pods-BitBucket-dummy.m */,
+				D4F2146039AABAB5C5EAFD67E7E02AB1 /* Pods-BitBucket-umbrella.h */,
+				E297E8264BF25B24CDBCF10DCF8A989E /* Pods-BitBucket.debug.xcconfig */,
+				D6C4B30EDA8DB90A49590A6391A07AD9 /* Pods-BitBucket.release.xcconfig */,
+			);
+			name = "Pods-BitBucket";
+			path = "Target Support Files/Pods-BitBucket";
+			sourceTree = "<group>";
+		};
+		2D39A848B91A05A3EE2D3D5DA61A2B9F /* SRNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				62ACBF5D4312E37DB3C6016ADFDB313F /* Configuration.swift */,
+				69F86FD4843074B834541BE8CDA3D871 /* EndpointProtocol.swift */,
+				65D3839370C7B69C90C58C7EC66C427D /* NetworkAgent.swift */,
+				419ED894D9ED00C33FEE8941650501FD /* Service.swift */,
+				7C1899DB7A4F488B89F8F63EC11A375E /* Support Files */,
+			);
+			path = SRNetworking;
+			sourceTree = "<group>";
+		};
+		44E44BF6C5C3803E9385578EA8512044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D12D10E217333EA508440710BCAC22C /* libPods-BitBucket.a */,
+				B6EB7C28DC1772BC2E9FD0DDF05F7F6D /* libSRNetworking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BBE217BF4BEBF3914241D6DA529ECFF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1423A47D215ABD8F766B65C4A68955B4 /* Pods-BitBucket */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7A57B3A86A1946BEF9266ECD501D283E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D39A848B91A05A3EE2D3D5DA61A2B9F /* SRNetworking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C1899DB7A4F488B89F8F63EC11A375E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6F6C4C2EC93F74BB196FEF5B9C5589B /* SRNetworking.modulemap */,
+				0DA9D8B55AD6593E872AAFE614AB3C6A /* SRNetworking-dummy.m */,
+				EA6A6E3D2A86044E43FE756B63FB482D /* SRNetworking-prefix.pch */,
+				C7EE0B7A2AF5D7318604A1884F6E6A3D /* SRNetworking-umbrella.h */,
+				C2DDFFE7A83A305F698DF0781D59861E /* SRNetworking.debug.xcconfig */,
+				5669D988F70BC01D646197EE13CF59D7 /* SRNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SRNetworking";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				7A57B3A86A1946BEF9266ECD501D283E /* Pods */,
+				44E44BF6C5C3803E9385578EA8512044 /* Products */,
+				6BBE217BF4BEBF3914241D6DA529ECFF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10CC33332EF47D96E243AF30FAF6EC10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00485B22B14B07C9035251B8AB2BADC /* Pods-BitBucket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23093A207A9278B46834FC5F68CFAE44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C36D6DEEC6309B5E9E70E07E1DA82B /* SRNetworking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		616B87814B1C56C36549BBFBF8D81670 /* SRNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC8EE9F6D4230EF0E65284AC16DBC1A /* Build configuration list for PBXNativeTarget "SRNetworking" */;
+			buildPhases = (
+				23093A207A9278B46834FC5F68CFAE44 /* Headers */,
+				80F222F76ACA7014CE5552CB06751B37 /* Sources */,
+				D6791EDB4A0EF7ED12311F39D3C9F5E0 /* Frameworks */,
+				06090EB0BF88C8B4669AD7F0326151D0 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRNetworking;
+			productName = SRNetworking;
+			productReference = B6EB7C28DC1772BC2E9FD0DDF05F7F6D /* libSRNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7C2F5A69027E49E7EE3ACCEC017A8C33 /* Pods-BitBucket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F692D3DAF2411618812DCE4E25D12C0 /* Build configuration list for PBXNativeTarget "Pods-BitBucket" */;
+			buildPhases = (
+				10CC33332EF47D96E243AF30FAF6EC10 /* Headers */,
+				CFF9EE4F42C85F30E48C06BCC3622B7D /* Sources */,
+				6324AF7025641EC912B24F1CA84B5171 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF14C48D3D4141BF4D388A27AE4ACA2D /* PBXTargetDependency */,
+			);
+			name = "Pods-BitBucket";
+			productName = "Pods-BitBucket";
+			productReference = 9D12D10E217333EA508440710BCAC22C /* libPods-BitBucket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 44E44BF6C5C3803E9385578EA8512044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C2F5A69027E49E7EE3ACCEC017A8C33 /* Pods-BitBucket */,
+				616B87814B1C56C36549BBFBF8D81670 /* SRNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06090EB0BF88C8B4669AD7F0326151D0 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SRNetworking/SRNetworking.modulemap",
+				"${PODS_ROOT}/Headers/Public/SRNetworking/SRNetworking-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SRNetworking-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SRNetworking/SRNetworking.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SRNetworking/SRNetworking-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80F222F76ACA7014CE5552CB06751B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A6BEA78B285796D02CFCF0F07CA93C /* Configuration.swift in Sources */,
+				EAE6F485FE9AC0E37BAC855F37DEC5DE /* EndpointProtocol.swift in Sources */,
+				E962AA4C5A06310175D6B46FE18B8631 /* NetworkAgent.swift in Sources */,
+				E1EDBBA95794DE662CBF61732E4BB46A /* Service.swift in Sources */,
+				40ADE541C4B99C92430E9A0822430480 /* SRNetworking-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF9EE4F42C85F30E48C06BCC3622B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9316C0E941FABB941C90E71C21F67A /* Pods-BitBucket-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF14C48D3D4141BF4D388A27AE4ACA2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SRNetworking;
+			target = 616B87814B1C56C36549BBFBF8D81670 /* SRNetworking */;
+			targetProxy = 0274C729D6E779F55333B835376309D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		017F69BAC7D4616306798DD6D36836A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5669D988F70BC01D646197EE13CF59D7 /* SRNetworking.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SRNetworking/SRNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/SRNetworking/SRNetworking.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SRNetworking;
+				PRODUCT_NAME = SRNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35F3ED55CC07B8A5A3A1035E289530D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E297E8264BF25B24CDBCF10DCF8A989E /* Pods-BitBucket.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitBucket/Pods-BitBucket.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B9ED36342A238F40C4B7E7799DA88D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C4B30EDA8DB90A49590A6391A07AD9 /* Pods-BitBucket.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitBucket/Pods-BitBucket.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DC5818E7681A1C965CA91CAE23B092E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2DDFFE7A83A305F698DF0781D59861E /* SRNetworking.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SRNetworking/SRNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/SRNetworking/SRNetworking.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SRNetworking;
+				PRODUCT_NAME = SRNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F692D3DAF2411618812DCE4E25D12C0 /* Build configuration list for PBXNativeTarget "Pods-BitBucket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F3ED55CC07B8A5A3A1035E289530D2 /* Debug */,
+				4B9ED36342A238F40C4B7E7799DA88D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC8EE9F6D4230EF0E65284AC16DBC1A /* Build configuration list for PBXNativeTarget "SRNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5818E7681A1C965CA91CAE23B092E9 /* Debug */,
+				017F69BAC7D4616306798DD6D36836A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

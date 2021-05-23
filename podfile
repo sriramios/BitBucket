@@ -1,0 +1,9 @@
+# open source
+source 'https://github.com/CocoaPods/Specs.git'
+
+# my work
+source 'git@github.com:sriramios/specs.git'
+
+target 'BitBucket' do
+  pod 'SRNetworking'
+end

@@ -1,0 +1,6 @@
+module Pods_BitBucket {
+  umbrella header "Pods-BitBucket-umbrella.h"
+
+  export *
+  module * { export * }
+}
